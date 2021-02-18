@@ -13,6 +13,7 @@
 		"operator-linebreak": "off",
 		"indent": "off",
 		"eol-last": "off",
+		"arrow-parens": "off",
 		"no-tabs": "off"
 	},
 	"extends": ["eslint:recommended", "google"]
