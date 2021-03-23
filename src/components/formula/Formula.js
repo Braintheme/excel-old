@@ -21,6 +21,5 @@ export class Formula extends ExcelComponent {
 		console.log('on input', event.target.textContent.trim())
 	}
 	onClick(event) {
-		console.log('ff');
 	}
 }
