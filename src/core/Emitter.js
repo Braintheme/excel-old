@@ -3,7 +3,6 @@ export class Emitter {
 		this.listeners = {}
 	}
 
-
 	emit(event, ...args) {
 		if (!Array.isArray(this.listeners[event])) {
 			return false
@@ -23,8 +22,3 @@ export class Emitter {
 		}
 	}
 }
-
-const emitter = new Emitter()
-
-emitter.subscribe('vladilen', data => console.log(data))
-emitter.emit('vladilen', 42)
